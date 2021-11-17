@@ -1,0 +1,27 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trungtinh1302/NodeJS-SSR.git"
+  },
+  "keywords": [
+    "NodeJS-SSR"
+  ],
+  "author": "TinhBui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trungtinh1302/NodeJS-SSR/issues"
+  },
+  "homepage": "https://github.com/trungtinh1302/NodeJS-SSR#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
+}
